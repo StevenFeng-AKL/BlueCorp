@@ -1,2 +1,0 @@
-# BlueCorp
-BlueCorp Test Case
