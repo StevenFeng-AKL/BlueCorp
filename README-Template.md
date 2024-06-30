@@ -1,10 +1,16 @@
-# Project Title
+# BlueCorp 3PL Sales Order Automation
 
-Simple overview of use/purpose.
+By using Azure Integration service, to autoemate the sales orders prcoess between Blue Corp's logistic team and 3PL. 
 
-## Description
+## Design Ojectives 
 
-An in-depth paragraph about your project and overview of use.
+* All integrations must use Azure Integration services;
+* All integrations must be built and deployed automatically with Azure DevOps Pipelines;
+* All integrations must recover gracefully on transient errors (e.g. SFTP site temporarily unavailable) without the need to resubmit from D365;
+* All integrations telemetry & logging must be published to Azure for monitoring and alerting purposes;
+* All systems must use secure and modern authentication mechanism.
+* All data at-rest and in-transit must be encrypted;
+
 
 ## Getting Started
 
